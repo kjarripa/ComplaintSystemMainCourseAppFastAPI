@@ -6,7 +6,8 @@ class UserRegisterIn(UserBase):
     phone: str
     first_name: str
     last_name: str
-    iban: str # where to send the money
+    iban: str  # where to send the money
+
 
 class UserLoginIn(UserBase):
     password: str
